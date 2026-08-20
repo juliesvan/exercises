@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Vina+Sans&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(221, 212, 199);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Vina Sans", sans-serif;
+  font-size: 120px;
+  color: rgb(0, 96, 96);
+  margin-top: 60px;
+}
+
+p {
+  font-family: "Alatsi", sans-serif;
+  font-size: 40px;
+  color: rgb(0, 96, 96);
+}
+
+.guessNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 96, 96, 0.392);
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: "Alatsi", sans-serif;
+  font-size: 80px;
+  color: rgb(165, 61, 42);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+/* Styling af alle knapper */
+button {
+  background-color: rgb(0, 96, 96);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: "Alatsi", sans-serif;
+  font-size: 20px;
+}
+
+#restartBtn {
+  background-color: rgb(165, 61, 42);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.restart {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
