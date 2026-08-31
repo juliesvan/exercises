@@ -30,4 +30,6 @@ function generateBreadCrumbPath() {
     bc.join(" / ");
   });
   return returnStr;
+
+  //Hejsa
 }

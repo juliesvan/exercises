@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: rgb(132, 182, 183);
+}
+
+.choose-lang {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  background-color: rgb(196, 95, 37);
+}
