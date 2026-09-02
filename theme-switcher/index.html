@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Switcher</title>
+    <link rel="stylesheet" href="themes.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-theme="light">
+    <header>
+      <a href="index.html">
+        <h4 id="logo-name">MĀLAMA</h4>
+        <p id="logo-text">Smoothie Bar</p></a
+      >
+      <nav>
+        <a href="index.html" class="active">Hjem</a>
+        <a href="#">Menu</a>
+        <a href="#">Om os</a>
+        <a href="#">Find os</a>
+      </nav>
+      <section class="choose-theme">
+        <p>Tema</p>
+        <select name="theme" id="theme">
+          <option value="light">Light 🥥</option>
+          <option value="dark">Dark 🥝</option>
+          <option value="hawaii">Hawaii 🍍</option>
+        </select>
+      </section>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="hero-content">
+            <h1 class="hero-h1">
+              Velkommen hos <br />
+              MĀLAMA Smoothie Bar!
+            </h1>
+            <br />
+          </div>
+          <p>Friske smoothies og bowls lavet med naturlige ingredienser og masser af smag 🥝</p>
+          <br />
+          <button class="menuBtn">Se hele menuen her →</button>
+        </div>
+        <div class="hero-info">
+          <p>● Naturlige råvarer</p>
+          <p>● Frisklavet hver dag</p>
+          <p>● Lavet med omtanke</p>
+        </div>
+      </section>
+
+      <section class="cards">
+        <a href="#" class="card">
+          <div class="img-container">
+            <img src="img/pink-smoothie.jpg" class="card-img" alt="Billede af smoothie" />
+          </div>
+          <div class="card-text">
+            <h3>Smoothies</h3>
+            <p>Find din nye yndlings-smoothie →</p>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <div class="img-container">
+            <img src="img/bowl-board.jpg" class="card-img" alt="Billede af smoothiebowl" />
+          </div>
+          <div class="card-text">
+            <h3>Bowls</h3>
+            <p>Se vores udvalg af lækre bowls →</p>
+          </div>
+        </a>
+        <a href="#" class="card">
+          <div class="img-container">
+            <img src="img/about.jpg" class="card-img" alt="Billede af kvinde der holder en smoothie" />
+          </div>
+          <div class="card-text">
+            <h3>Om os</h3>
+            <p>Det vi står for →</p>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">
+        <h4 id="logo-name">MĀLAMA</h4>
+        <p id="logo-text">Smoothie Bar</p>
+      </div>
+      <div>
+        <h4>FIND OS</h4>
+        <br />
+        <p>
+          Stengade 24 <br />
+          3000 Helsingør
+        </p>
+      </div>
+      <div>
+        <h4>ÅBNINGSTIDER</h4>
+        <br />
+        <p>
+          Mandag - fredag: 09:00 - 17:00 <br />
+          Lørdag - søndag: 10:00 - 17:00
+        </p>
+      </div>
+      <div>
+        <p>
+          Hjem <br />
+          Menu <br />
+          Om os <br />
+          Find os
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

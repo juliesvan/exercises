@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--bg-col);
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--header-text-col);
+}
+
+button {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  color: var(--btn-text-col);
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-col);
+  color: var(--header-text-col);
+  font-size: large;
+  height: 90px;
+  padding: 20px;
+  border-bottom: 1px solid var(--border-col);
+}
+
+#logo-name {
+  color: var(--logo-name-col);
+}
+#logo-text {
+  color: var(--logo-text-col);
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.active {
+  font-weight: bold;
+  color: var(--nav-active);
+}
+
+.choose-theme {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* MAIN */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--hero-bg-col);
+  color: var(--hero-text-col);
+  margin: 60px 100px;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.hero-h1 {
+  font-size: 50px;
+  color: var(--h1-col);
+}
+
+.hero-info {
+  font-size: 25px;
+}
+
+.hero-info p {
+  line-height: 2;
+}
+
+.menuBtn {
+  background-color: var(--menu-btn-col);
+}
+
+main {
+  /* background-color: var(--bg-col); */
+  color: var(--text-col);
+}
+
+/* Grid */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Hvert enkelt card */
+.card {
+  background-color: var(--card-col);
+  color: var(--card-text-col);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.img-container {
+  width: fit-content;
+  display: inline-block;
+}
+
+.card-img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--footer-col);
+  color: var(--footer-text-col);
+  height: 180px;
+  margin-top: 60px;
+  border-top: 1px solid var(--border-col);
+}
+
+footer h4 {
+  color: var(--footer-h4-col);
+}
+
+.footer-logo {
+  font-size: 25px;
+}

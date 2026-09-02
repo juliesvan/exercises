@@ -1,0 +1,75 @@
+[data-theme="light"] {
+  --bg-col: #f5f0e6;
+  --hero-bg-col: #e2d5bf;
+  --h1-col: black;
+  --hero-text-col: black;
+  --header-col: #f5f0e6;
+  --header-text-col: black;
+  --nav-active: #2b832b;
+  --footer-col: #f5f0e6;
+  --footer-h4-col: #2b832b;
+  --footer-text-col: black;
+  --text-col: black;
+  --logo-name-col: #2b832b;
+  --logo-text-col: black;
+  --a-col: black;
+  --card-col: #e2d5bf;
+  --card-text-col: black;
+  --menu-btn-col: #2b832b;
+  --btn-text-col: #f5f0e6;
+  --border-col: #e2d5bf;
+}
+
+[data-theme="dark"] {
+  --bg-col: #274029;
+  --hero-bg-col: #486c4a;
+  --h1-col: #f3e7d3;
+  --hero-text-col: #f3e7d3;
+  --header-col: #274029;
+  --header-text-col: #f3e7d3;
+  --nav-active: #33a433;
+  --footer-col: #274029;
+  --footer-h4-col: #33a433;
+  --footer-text-col: #f3e7d3;
+  --text-col: white;
+  --logo-name-col: #33a433;
+  --logo-text-col: #f3e7d3;
+  --a-col: white;
+  --card-col: #486c4a;
+  --card-text-col: #f3e7d3;
+  --menu-btn-col: #f3e7d3;
+  --btn-text-col: #274029;
+  --border-col: #486c4a;
+}
+
+[data-theme="hawaii"] {
+  --bg-col: #f2ceda;
+  --hero-bg-col: #cf6587;
+  --h1-col: #f3e7d3;
+  --hero-text-col: #f3e7d3;
+  --header-col: #f2ceda;
+  --header-text-col: black;
+  --footer-col: #f2ceda;
+  --footer-h4-col: #2b832b;
+  --footer-text-col: black;
+  --nav-active: #2b832b;
+  --text-col: black;
+  --logo-name-col: #2b832b;
+  --logo-text-col: black;
+  --a-col: black;
+  --card-col: #cf6587;
+  --card-text-col: #f3e7d3;
+  --menu-btn-col: #2b832b;
+  --btn-text-col: #f5f0e6;
+  --border-col: #cf6587;
+}
+
+/* Primær-farver */
+/* Light: #f5f0e6 */
+/* Dark: #274029 */
+/* Hawaii: #f2b7ca */
+
+/* Sekundær-farver */
+/* Light: # */
+/* Dark: # */
+/* Hawaii: # */
