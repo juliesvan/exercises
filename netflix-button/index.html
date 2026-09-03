@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Button</title>
+    <style>
+      #netflixBtn {
+        position: relative;
+        background-color: #e2e7ea;
+        color: rgb(57, 57, 57);
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+        width: 100px;
+        cursor: pointer;
+      }
+
+      .progress {
+        position: absolute;
+        /* top og left fortæller, hvor progress-laget skal begynde. */
+        top: 0;
+        left: 0;
+        /* width og height styrer, hvor meget progress-laget skal fylde. */
+        width: 0%;
+        height: 100%;
+        background-color: rgba(187, 200, 207, 0.4);
+        animation-name: fillButton;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+      }
+
+      /* Der bruges keyframes til at fortælle, hvad der skal ændre sig. */
+      @keyframes fillButton {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button id="netflixBtn"><span class="progress"></span>Continue</button>
+  </body>
+</html>
