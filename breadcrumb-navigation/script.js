@@ -20,16 +20,12 @@ function generateBreadCrumbPath() {
 
     if (i !== bc.length - 1) {
       console.log("Det er ikke sidste element");
-      returnStr += `<a href="">${breadCrumbs.name}</a>`;
+      returnStr += `<a href="${breadCrumbs.link}">${breadCrumbs.name}</a> / `;
     } else {
       console.log("Det er sidste element");
       // returnStr = returnStr+breadCrumbs.name - dette er det samme som nedenstående.
       returnStr += `${breadCrumbs.name}`;
     }
-
-    bc.join(" / ");
   });
   return returnStr;
-
-  //Hejsa
 }

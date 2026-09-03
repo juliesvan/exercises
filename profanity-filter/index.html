@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profanity Filter</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <p>Programmering er sjovt! Men husk altid at bruge var, float og marquee i moderne kodning.</p>
-    <dialog></dialog>
+    <p id="text">Programmering er sjovt! Men husk altid at bruge var, float og marquee i moderne kodning.</p>
+    <dialog id="dialog">
+      <p>Det er allerede Safe For Work</p>
+      <button id="closeDialog">OK</button>
+    </dialog>
     <button id="sfwBtn">SFW</button>
   </body>
 </html>
