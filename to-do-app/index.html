@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="to-do.js" defer></script>
+  </head>
+  <body>
+    <section class="app-container">
+      <header class="header">
+        <h1>To Do</h1>
+        <button class="add-task">+</button>
+      </header>
+      <div class="tasks-container">
+        <div class="tasks-form">
+          <div class="input">
+            <input type="text" class="task-text" placeholder="Tilføj en opgave" />
+            <div class="input-date-outdoor">
+              <input type="date" class="task-date" />
+              <p>
+                <input type="checkbox" class="task-outdoor" />
+                Udendørs
+              </p>
+            </div>
+          </div>
+          <div class="add-to-list">
+            <button class="create-task">Tilføj</button>
+          </div>
+        </div>
+        <ul class="tasks"></ul>
+        <ul class="tasks-are-done"></ul>
+      </div>
+    </section>
+  </body>
+</html>
