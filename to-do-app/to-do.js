@@ -173,7 +173,7 @@ function renderList() {
     <div class="info-secondary">
     <div class="outdoor-img">
     <p>${task.taskOutdoor ? "Udendørs" : ""}</p>
-    <p>${task.taskWeather ? `<img src="outdoor pakke/png/${task.taskWeather}" />` : ""}</p>
+    <p>${task.taskWeather ? `<img src="outdoor-pakke/png/${task.taskWeather}" />` : ""}</p>
     </div>
     <div class="possible">
     <p>${task.taskPossible ? "" : "Dato uegnet pga. nedbør."}</p>
