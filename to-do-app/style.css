@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL STYLING */
+
+body,
+button,
+input {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #181818;
+  color: white;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 6px;
+  border-radius: 15px;
+  width: 65px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.add-task:active {
+  color: rgb(255, 175, 26);
+}
+
+.create-task:active {
+  background-color: rgb(255, 175, 26);
+}
+
+.deleteBtn:active {
+  background-color: #1b1b1b;
+}
+
+.app-container {
+  margin: 100px auto;
+  background-color: #2b2b2b;
+  width: 600px;
+  min-height: 800px;
+  height: fit-content;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #444444;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.add-task {
+  border: none;
+  background-color: #2b2b2b;
+  color: orange;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.tasks-container {
+  margin-top: 40px;
+}
+
+.tasks-form {
+  display: none;
+  margin-bottom: 40px;
+}
+
+input {
+  font-size: 16px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-date-outdoor {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.input-date-outdoor p {
+  display: flex;
+  gap: 8px;
+}
+
+.create-task {
+  background-color: orange;
+  margin-top: 10px;
+}
+
+.add-to-list {
+  display: flex;
+  /* justify-content: flex-end; */
+  margin-top: 10px;
+}
+
+.task-text,
+.task-date {
+  background-color: #444444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+  padding: 15px;
+}
+
+.task-date {
+  color-scheme: dark;
+}
+
+input[type="checkbox"] {
+  accent-color: orange;
+  transform: scale(1.2);
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+li img {
+  width: 30px;
+}
+
+.info-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.check-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-delete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-delete p {
+  color: #bdbdbd;
+}
+
+.info-secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.outdoor-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.possible {
+  display: flex;
+  align-items: center;
+  color: orange;
+}
+
+.tasks-are-done li {
+  background-color: #383838;
+}
+
+.tasks-are-done .check-desc,
+.tasks-are-done .date-delete p,
+.tasks-are-done .info-secondary {
+  opacity: 0.6;
+}
